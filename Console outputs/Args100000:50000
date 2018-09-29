@@ -1,0 +1,230 @@
+Last login: Wed Feb 22 14:35:41 on ttys001
+host244-177:~ antonmdv$ cd Desktop/Spring2017/SoftwareTesting2/HashArrayList/
+host244-177:HashArrayList antonmdv$ ./testing.sh 100000 50000
+
+
+
+Testing for: onetoone
+
+Is Relation One to One?: true
+
+Program ran for 0.267410498 seconds
+Used Memory:11
+Free Memory:234
+Total Memory:245
+Max Memory:3641
+
+getCommittedVirtualMemorySize = 8468795392
+getTotalSwapSpaceSize = 2147483648
+getFreeSwapSpaceSize = 861405184
+getProcessCpuTime = 720743000
+getFreePhysicalMemorySize = 4352647168
+getTotalPhysicalMemorySize = 17179869184
+getOpenFileDescriptorCount = 6
+getMaxFileDescriptorCount = 10240
+getSystemCpuLoad = 0.0
+getProcessCpuLoad = 0.0
+
+
+Testing for: onto
+
+Is Relation On To?: true
+
+Program ran for 0.398783303 seconds
+Used Memory:48
+Free Memory:260
+Total Memory:309
+Max Memory:3641
+
+getCommittedVirtualMemorySize = 8469524480
+getTotalSwapSpaceSize = 2147483648
+getFreeSwapSpaceSize = 861405184
+getProcessCpuTime = 1102251000
+getFreePhysicalMemorySize = 4336119808
+getTotalPhysicalMemorySize = 17179869184
+getOpenFileDescriptorCount = 6
+getMaxFileDescriptorCount = 10240
+getSystemCpuLoad = 0.0
+getProcessCpuLoad = 0.0
+
+
+Testing for: reflex
+
+Is Relation Reflexive?: false
+
+Program ran for 0.469725456 seconds
+Used Memory:31
+Free Memory:214
+Total Memory:245
+Max Memory:3641
+
+getCommittedVirtualMemorySize = 8469778432
+getTotalSwapSpaceSize = 2147483648
+getFreeSwapSpaceSize = 861405184
+getProcessCpuTime = 958135000
+getFreePhysicalMemorySize = 4352659456
+getTotalPhysicalMemorySize = 17179869184
+getOpenFileDescriptorCount = 6
+getMaxFileDescriptorCount = 10240
+getSystemCpuLoad = 0.0
+getProcessCpuLoad = 0.0
+
+
+Testing for: sym
+
+Is Relation Symmetric?: true
+
+Program ran for 0.438174682 seconds
+Used Memory:42
+Free Memory:266
+Total Memory:309
+Max Memory:3641
+
+getCommittedVirtualMemorySize = 8469557248
+getTotalSwapSpaceSize = 2147483648
+getFreeSwapSpaceSize = 861405184
+getProcessCpuTime = 1122274000
+getFreePhysicalMemorySize = 4334043136
+getTotalPhysicalMemorySize = 17179869184
+getOpenFileDescriptorCount = 6
+getMaxFileDescriptorCount = 10240
+getSystemCpuLoad = 0.0
+getProcessCpuLoad = 0.0
+
+
+Testing for: trans
+
+Is Relation Transative?: true
+
+Program ran for 0.358025436 seconds
+Used Memory:65
+Free Memory:179
+Total Memory:245
+Max Memory:3641
+
+getCommittedVirtualMemorySize = 8470888448
+getTotalSwapSpaceSize = 2147483648
+getFreeSwapSpaceSize = 861405184
+getProcessCpuTime = 940220000
+getFreePhysicalMemorySize = 4344389632
+getTotalPhysicalMemorySize = 17179869184
+getOpenFileDescriptorCount = 6
+getMaxFileDescriptorCount = 10240
+getSystemCpuLoad = 0.0
+getProcessCpuLoad = 0.0
+
+
+Testing for: func
+
+Is Relation a function?: true
+
+Program ran for 0.438912676 seconds
+Used Memory:49
+Free Memory:260
+Total Memory:309
+Max Memory:3641
+
+getCommittedVirtualMemorySize = 8469524480
+getTotalSwapSpaceSize = 2147483648
+getFreeSwapSpaceSize = 861405184
+getProcessCpuTime = 1034037000
+getFreePhysicalMemorySize = 4335509504
+getTotalPhysicalMemorySize = 17179869184
+getOpenFileDescriptorCount = 6
+getMaxFileDescriptorCount = 10240
+getSystemCpuLoad = 0.0
+getProcessCpuLoad = 0.0
+
+
+Testing for: ref.trans
+
+Is Relation Reflexive?: true
+Is Relation Transative?: true
+
+
+Program ran for 0.552343665 seconds
+Used Memory:61
+Free Memory:247
+Total Memory:309
+Max Memory:3641
+
+getCommittedVirtualMemorySize = 8469696512
+getTotalSwapSpaceSize = 2147483648
+getFreeSwapSpaceSize = 861405184
+getProcessCpuTime = 1343915000
+getFreePhysicalMemorySize = 4253122560
+getTotalPhysicalMemorySize = 17179869184
+getOpenFileDescriptorCount = 6
+getMaxFileDescriptorCount = 10240
+getSystemCpuLoad = 0.0
+getProcessCpuLoad = 0.0
+
+
+Testing for: ref.sym
+
+Is Relation Reflexive?: true
+Is Relation Symmetric?: true
+
+Program ran for 0.898180363 seconds
+Used Memory:80
+Free Memory:228
+Total Memory:309
+Max Memory:3641
+
+getCommittedVirtualMemorySize = 8469667840
+getTotalSwapSpaceSize = 2147483648
+getFreeSwapSpaceSize = 861405184
+getProcessCpuTime = 1428666000
+getFreePhysicalMemorySize = 4305903616
+getTotalPhysicalMemorySize = 17179869184
+getOpenFileDescriptorCount = 6
+getMaxFileDescriptorCount = 10240
+getSystemCpuLoad = 0.0
+getProcessCpuLoad = 0.0
+
+
+Testing for: sym.trans
+
+Is Relation Symmetric?: true
+Is Relation Transative?: true
+
+
+Program ran for 0.925218368 seconds
+Used Memory:64
+Free Memory:244
+Total Memory:309
+Max Memory:3641
+
+getCommittedVirtualMemorySize = 8469852160
+getTotalSwapSpaceSize = 2147483648
+getFreeSwapSpaceSize = 861405184
+getProcessCpuTime = 1529318000
+getFreePhysicalMemorySize = 4250292224
+getTotalPhysicalMemorySize = 17179869184
+getOpenFileDescriptorCount = 6
+getMaxFileDescriptorCount = 10240
+getSystemCpuLoad = 0.0
+getProcessCpuLoad = 0.0
+host244-177:HashArrayList antonmdv$ 
+Testing for: eq
+
+Number of equivalence classes: 50000
+
+
+Program ran for 57.504963453 seconds
+Used Memory:117
+Free Memory:192
+Total Memory:309
+Max Memory:3641
+
+getCommittedVirtualMemorySize = 8468393984
+getTotalSwapSpaceSize = 2147483648
+getFreeSwapSpaceSize = 861405184
+getProcessCpuTime = 58464811000
+getFreePhysicalMemorySize = 4128837632
+getTotalPhysicalMemorySize = 17179869184
+getOpenFileDescriptorCount = 6
+getMaxFileDescriptorCount = 10240
+getSystemCpuLoad = 0.0
+getProcessCpuLoad = 0.0
+
